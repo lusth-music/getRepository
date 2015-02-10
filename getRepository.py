@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+#
+# Author: Joshua Wolfe (jbwolfe)
+# The must-have, go-to script for cloning and/or pulling the latest lusth-music 
+#     student repositories. This script ignores utility repositories
+
 import os
 import urllib.request
 from html.parser import HTMLParser
