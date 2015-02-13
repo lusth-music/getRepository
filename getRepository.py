@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 
 class parseClass(HTMLParser):
   def handle_starttag(self, tag, attrs):
-    ignore = ["getpack", "instrumentPlayer", "getRepository"]
+    ignore = ["getpack", "instrumentPlayer", "getRepository", "lusth-music.github.io"]
     if(tag == "a"):
       if(attrs[0][0]=='href' and attrs[0][1][1:12]=="lusth-music"):
         if(attrs[0][1][13:] not in ignore):
